@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/pranav/AndroidStudioProjects/ToDoList/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4e47122ff7feacf54a3bcdbff78c6b28773167a8">
+        <dex dex="/home/pranav/AndroidStudioProjects/ToDoList/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8ee2e355691452a32c26fe29286f1447f3121952/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/pranav/AndroidStudioProjects/ToDoList/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/home/pranav/AndroidStudioProjects/ToDoList/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_18798286fa35aa247ae946dad37271ffb4f989ce/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/pranav/.android/build-cache/c651ec245a2b59ab0815d69bfddf278c2b8151e2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8a372c4191f80489770a231f7be4820b204b886a">
+        <dex dex="/home/pranav/AndroidStudioProjects/ToDoList/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_890952e322f43afcc7be3c4f083c5db992863fbf/classes.dex" />
+    </item>
+
+</items>

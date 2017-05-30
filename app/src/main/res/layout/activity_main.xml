@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/to_do_text"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:textSize="24sp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/addTodo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:textSize="30sp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:background="@android:color/transparent"
+            android:text="@string/plus_sign"/>
+
+    </LinearLayout>
+
+    <fragment
+        android:name="layout.FragmentRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragmentRecyclerView"
+        tools:layout="@layout/fragment_recycler_view" />
+
+</LinearLayout>
