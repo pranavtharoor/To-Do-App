@@ -12,7 +12,10 @@ import android.widget.TextView;
 import java.util.Collections;
 import java.util.List;
 
-import static layout.FragmentRecyclerView.deleteData;
+import io.realm.Realm;
+import io.realm.RealmResults;
+
+//import static layout.FragmentRecyclerView.deleteData;
 
 /**
  * Created by pranav on 23/5/17.
@@ -22,6 +25,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
     private final LayoutInflater inflater;
     List<Data> data = Collections.emptyList();
+    Realm realm;
 
     public MyAdapter(Context context, List<Data> data) {
         inflater = LayoutInflater.from(context);
@@ -30,20 +34,24 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
     @Override
     public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        Realm.init(parent.getContext());
+        realm = Realm.getDefaultInstance();
         View view = inflater.inflate(R.layout.list_item, parent, false);
         MyViewHolder holder = new MyViewHolder(view);
         view.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
-                String text;
-                String position;
+                String text, id, position;
                 TextView textView = (TextView) view.findViewById(R.id.listText);
+                TextView idView = (TextView) view.findViewById(R.id.id);
                 TextView positionText = (TextView) view.findViewById(R.id.position);
-                position = positionText.getText().toString();
+                id = idView.getText().toString();
                 text = textView.getText().toString();
+                position = positionText.getText().toString();
                 Intent intent = new Intent(view.getContext(), ToDoEdit.class);
                 intent.putExtra("sentText", text);
+                intent.putExtra("id", id);
                 intent.putExtra("position", position);
                 view.getContext().startActivity(intent);
             }
@@ -53,14 +61,25 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
     @Override
     public void onBindViewHolder(MyViewHolder holder, final int position) {
-        Data current = data.get(position);
-        holder.text.setText(current.text);
+        final Data current = data.get(position);
+        holder.text.setText(current.getText());
+        holder.idView.setText(current.getId());
         String pos =  String.valueOf(position + 1);
         holder.positionText.setText(pos);
         holder.deleteButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                deleteData(position);
+//                Data realmData = new Data();
+//                RealmResults<Data> rows = realm.where(Data.class).equalTo(realmData.getId(), current.getId()).findAll();
+//                rows.deleteAllFromRealm();
+                RealmResults<Data> results = realm.where(Data.class).findAll();
+
+                realm.beginTransaction();
+                results.deleteFromRealm(position);
+                realm.commitTransaction();
+
+
+//                deleteData(position);
                 notifyDataSetChanged();
             }
         });
@@ -76,9 +95,11 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
         TextView text;
         ImageButton deleteButton;
         TextView positionText;
+        TextView idView;
 
         public MyViewHolder(View itemView) {
             super(itemView);
+            idView = (TextView) itemView.findViewById(R.id.id);
             text = (TextView) itemView.findViewById(R.id.listText);
             deleteButton = (ImageButton) itemView.findViewById(R.id.deleteButton);
             positionText = (TextView) itemView.findViewById(R.id.position);

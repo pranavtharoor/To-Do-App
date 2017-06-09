@@ -6,15 +6,16 @@ import android.support.v4.app.FragmentActivity;
 import android.view.View;
 import android.widget.Button;
 
+import io.realm.Realm;
+import io.realm.RealmConfiguration;
+
 public class MainActivity extends FragmentActivity {
 
     Button addTodo;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         addTodo = (Button) findViewById(R.id.addTodo);
 
         addTodo.setOnClickListener(new View.OnClickListener() {

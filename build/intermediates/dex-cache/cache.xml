@@ -3,12 +3,75 @@
 
     <item
         is-multidex="true"
+        jar="/home/pranav/.android/build-cache/fc89c57d5c3092cd8e4d4579bc5a09b81bc47c7f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/home/pranav/AndroidStudioProjects/ToDoList/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8e4692c1def3cae589d6a4eb4734aa8cde562a8b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/pranav/.android/build-cache/6de6fc8e276ddf350c40bf867115ab4da69f0911/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
+        <dex dex="/home/pranav/AndroidStudioProjects/ToDoList/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5c945a454dca773d2cd16c04727e1180a9c73506/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/pranav/.android/build-cache/c0d4aba6ae53168ae95f13c534188b145e860215/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/home/pranav/AndroidStudioProjects/ToDoList/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4c26cae75cac09f6818327b5a58cc5591ecc4c0c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/pranav/.android/build-cache/0fbe746f35b565596e3ec60d54fb25bdc2a9cbd2/output/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/home/pranav/AndroidStudioProjects/ToDoList/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_dd6d3075c5a5b4e201e9dcfe58b50214523d7c97/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/pranav/.android/build-cache/0fbe746f35b565596e3ec60d54fb25bdc2a9cbd2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="/home/pranav/AndroidStudioProjects/ToDoList/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b09a223cdc567904ac2b175da35193fd1c41cfe7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/pranav/.android/build-cache/e5d255e02b1bde6541240285d4e2253121264f33/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d16c820d6943f6bbfe74699ca2ce2ad4dd44829e">
+        <dex dex="/home/pranav/AndroidStudioProjects/ToDoList/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_82cac098bbc11c8551196e81d0798120cd5c2b4a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/pranav/AndroidStudioProjects/ToDoList/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="4e47122ff7feacf54a3bcdbff78c6b28773167a8">
+        sha1="64508f9c51f5dc1cde2c0d7c5409e9bb654ccd0d">
         <dex dex="/home/pranav/AndroidStudioProjects/ToDoList/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8ee2e355691452a32c26fe29286f1447f3121952/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/pranav/.android/build-cache/ce72dffc069283606f0a9731968ab172b32e63aa/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8a372c4191f80489770a231f7be4820b204b886a">
+        <dex dex="/home/pranav/AndroidStudioProjects/ToDoList/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a45a99d87557bcf59c6200b24e6168dc509d7258/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -21,12 +84,129 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/pranav/.android/build-cache/c651ec245a2b59ab0815d69bfddf278c2b8151e2/output/jars/classes.jar"
+        jar="/home/pranav/.android/build-cache/4051a47ba6c531e530c3501db04b2be754abbdc8/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="8a372c4191f80489770a231f7be4820b204b886a">
-        <dex dex="/home/pranav/AndroidStudioProjects/ToDoList/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_890952e322f43afcc7be3c4f083c5db992863fbf/classes.dex" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/pranav/AndroidStudioProjects/ToDoList/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c98c64c6344e080d1fb09cb78097d3d1fca99b6b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/pranav/.android/build-cache/48358f07f82cfa58f541bfe561519f86a7274b0a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/home/pranav/AndroidStudioProjects/ToDoList/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2743cfcb3f82a4379f4e90fcb921261cfaa618e2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/pranav/.android/build-cache/d584b4aecae7499031d7c601bc5db84cd583fc37/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
+        <dex dex="/home/pranav/AndroidStudioProjects/ToDoList/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c6f04f62b1351f8304f70f817448a256a92ef3db/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/pranav/.android/build-cache/40ca99aca01eb2fcbcbcdc6b7b9ffd82464cf9ed/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/home/pranav/AndroidStudioProjects/ToDoList/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1458d6775801bb243842cf533cf2e27b6deaa000/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/pranav/.gradle/caches/modules-2/files-2.1/io.realm/realm-annotations/2.2.1/3095c5145d7966e555c113c6a3fc33a107badc80/realm-annotations-2.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3095c5145d7966e555c113c6a3fc33a107badc80">
+        <dex dex="/home/pranav/AndroidStudioProjects/ToDoList/app/build/intermediates/transforms/dex/debug/folders/1000/10/realm-annotations-2.2.1_0affc2edf675f283d8640b098fe6fc13b2d9c8be/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/pranav/.android/build-cache/deef6362b3ee460fca15e2d5da42848e0ba04429/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="/home/pranav/AndroidStudioProjects/ToDoList/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bbe4f1229db0794ff748d894e94260fe6634779d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/pranav/.android/build-cache/c0d4aba6ae53168ae95f13c534188b145e860215/output/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/home/pranav/AndroidStudioProjects/ToDoList/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_bbc3c7f314b7f9eee31ffdcea24563d6cdd27fd0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/pranav/.android/build-cache/74d428dc091b74eb1a1f2d4bf103caf82d91051c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b64dd5f01bc37de289f90fd59299b0c76d119611">
+        <dex dex="/home/pranav/AndroidStudioProjects/ToDoList/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1d4068ffb3ee7ca9548a3dcd90b5502e74e98c2f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/pranav/.android/build-cache/145066df95e7feb506c58f107f5509cc5266798d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="/home/pranav/AndroidStudioProjects/ToDoList/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8ee123e149232e33ae468547dc895bf7ada5d44d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/pranav/.android/build-cache/89009688195cfb6a8855f345c7895697d5ef2ec0/output/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/home/pranav/AndroidStudioProjects/ToDoList/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_bc1be7e791cef864775ec64f3a2f68a55bf15830/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/pranav/.android/build-cache/ef639f7a9a55a8743820ca65af8cb26b7b4ff6c3/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
+        <dex dex="/home/pranav/AndroidStudioProjects/ToDoList/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fe9af5d69be8f9cca23aa1c035a133bbd7b25462/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/pranav/.android/build-cache/deef6362b3ee460fca15e2d5da42848e0ba04429/output/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="/home/pranav/AndroidStudioProjects/ToDoList/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_1f6f704a5e1ddaba3a3fad62ac238c0a28cf5bf4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/pranav/.android/build-cache/89009688195cfb6a8855f345c7895697d5ef2ec0/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/home/pranav/AndroidStudioProjects/ToDoList/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f05abcc34ae368757b3b0e07b6e594994852b2d3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/pranav/.android/build-cache/fc89c57d5c3092cd8e4d4579bc5a09b81bc47c7f/output/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="/home/pranav/AndroidStudioProjects/ToDoList/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_337417201354ac285ca1811bff40b9c880b73774/classes.dex" />
     </item>
 
 </items>

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file:///media/pranav/5474469E7446832A/Coding/GIT/To-Do-App/To-Do-App.iml" filepath="/media/pranav/5474469E7446832A/Coding/GIT/To-Do-App/To-Do-App.iml" />
-      <module fileurl="file:///media/pranav/5474469E7446832A/Coding/GIT/To-Do-App/app/app.iml" filepath="/media/pranav/5474469E7446832A/Coding/GIT/To-Do-App/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ToDoList.iml" filepath="$PROJECT_DIR$/ToDoList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
 </project>

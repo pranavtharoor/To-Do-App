@@ -7,8 +7,8 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
-            <option value="/media/pranav/5474469E7446832A/Coding/GIT/To-Do-App" />
-            <option value="/media/pranav/5474469E7446832A/Coding/GIT/To-Do-App/app" />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

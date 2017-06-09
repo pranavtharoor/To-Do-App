@@ -1,6 +1,7 @@
 package layout;
 
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
@@ -9,8 +10,10 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
+import io.realm.Realm;
 import pranav.com.todolist.Data;
 import pranav.com.todolist.MyAdapter;
 import pranav.com.todolist.R;
@@ -22,10 +25,18 @@ public class FragmentRecyclerView extends Fragment {
     private static MyAdapter adapter;
     private static List<Data> toDos = new ArrayList<Data>();
 
+    Realm realm;
+
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        Realm.init(getContext());
+        realm = Realm.getDefaultInstance();
+    }
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-
         View layout =  inflater.inflate(R.layout.fragment_recycler_view, container, false);
 
         toDoList = (RecyclerView) layout.findViewById(R.id.toDoList);
@@ -37,24 +48,27 @@ public class FragmentRecyclerView extends Fragment {
     }
 
     public static List<Data> getData() {
+        Realm realm = Realm.getDefaultInstance();
+        toDos = realm.where(Data.class).findAll();
         return toDos;
     }
 
     public static void putData(String str) {
-        Data data = new Data(str);
+        Data data = new Data();
+        data.setText(str);
         toDos.add(data);
         adapter.notifyDataSetChanged();
     }
 
     public static void editData(String str, int index) {
-        Data data = new Data(str);
-        toDos.set(index, data);
+//        Data data = new Data();
+//        data.setText(str);
+//        toDos.set(index, data);
         adapter.notifyDataSetChanged();
-
     }
 
-    public static void deleteData(int position) {
-        toDos.remove(position);
-    }
+//    public static void deleteData(int position) {
+//        toDos.remove(position);
+//    }
 
 }
