@@ -13,8 +13,7 @@ import java.util.Date;
 
 import io.realm.Realm;
 
-import static layout.FragmentRecyclerView.editData;
-import static layout.FragmentRecyclerView.putData;
+import static layout.FragmentRecyclerView.dataSetChanged;
 
 public class ToDoEdit extends AppCompatActivity {
 
@@ -60,14 +59,14 @@ public class ToDoEdit extends AppCompatActivity {
                     Date date = new Date();
                     data.setId(dateFormat.format(date));
                     realm.commitTransaction();
-                    putData(editText);
+                    dataSetChanged();
                 }
                 else {
                     realm.beginTransaction();
                     Data edit = realm.where(Data.class).equalTo("id", id).findFirst();
                     edit.setText(editText);
                     realm.commitTransaction();
-                    editData(editText, pos - 1);
+                    dataSetChanged();
                 }
                 finish();
             }

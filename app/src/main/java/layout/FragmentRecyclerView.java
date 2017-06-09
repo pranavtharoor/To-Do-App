@@ -10,7 +10,6 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 import io.realm.Realm;
@@ -53,22 +52,8 @@ public class FragmentRecyclerView extends Fragment {
         return toDos;
     }
 
-    public static void putData(String str) {
-        Data data = new Data();
-        data.setText(str);
-        toDos.add(data);
+    public static void dataSetChanged() {
         adapter.notifyDataSetChanged();
     }
-
-    public static void editData(String str, int index) {
-//        Data data = new Data();
-//        data.setText(str);
-//        toDos.set(index, data);
-        adapter.notifyDataSetChanged();
-    }
-
-//    public static void deleteData(int position) {
-//        toDos.remove(position);
-//    }
 
 }

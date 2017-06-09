@@ -15,7 +15,6 @@ import java.util.List;
 import io.realm.Realm;
 import io.realm.RealmResults;
 
-//import static layout.FragmentRecyclerView.deleteData;
 
 /**
  * Created by pranav on 23/5/17.
@@ -69,17 +68,10 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
         holder.deleteButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                Data realmData = new Data();
-//                RealmResults<Data> rows = realm.where(Data.class).equalTo(realmData.getId(), current.getId()).findAll();
-//                rows.deleteAllFromRealm();
                 RealmResults<Data> results = realm.where(Data.class).findAll();
-
                 realm.beginTransaction();
                 results.deleteFromRealm(position);
                 realm.commitTransaction();
-
-
-//                deleteData(position);
                 notifyDataSetChanged();
             }
         });

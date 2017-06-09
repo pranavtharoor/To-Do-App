@@ -1,7 +1,6 @@
 package pranav.com.todolist;
 
 import io.realm.RealmObject;
-import io.realm.annotations.PrimaryKey;
 
 /**
  * Created by pranav on 23/5/17.
